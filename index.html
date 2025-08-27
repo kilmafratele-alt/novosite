@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -5,154 +6,113 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kilma Frateles | Psicóloga Perinatal</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f4e3d7;
-      color: #8d4b32;
-      line-height: 1.6;
-    }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-      background-color: #fff;
-    }
-    header img {
-      height: 60px;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #8d4b32;
-      font-weight: bold;
-    }
-    section {
-      padding: 3rem 2rem;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 2rem;
-    }
-    .btn {
-      display: inline-block;
-      padding: 0.8rem 1.5rem;
-      margin-top: 1rem;
-      background-color: #ffb7c5;
-      color: #8d4b32;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .sobre {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 2rem;
-    }
-    .sobre img {
-      max-width: 300px;
-      border-radius: 16px;
-    }
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      background-color: #fff;
-      padding: 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    footer {
-      background-color: #8d4b32;
-      color: #fff;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    footer a {
-      color: #ffb7c5;
-      text-decoration: none;
-      font-weight: bold;
-    }
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background-color:#f4e3d7; color:#8d4b32; }
+    header { display:flex; align-items:center; justify-content:space-between; padding:20px; background:#fff; }
+    header img { height:60px; }
+    nav a { margin:0 15px; text-decoration:none; color:#8d4b32; font-weight:bold; }
+    .hero { display:flex; flex-wrap:wrap; align-items:center; justify-content:center; padding:50px; }
+    .hero-text { flex:1; min-width:300px; padding:20px; }
+    .hero img { flex:1; max-width:400px; border-radius:15px; }
+    h1 { font-size:2em; color:#8d4b32; }
+    .cta { display:inline-block; margin-top:20px; padding:12px 25px; background:#ffb7c5; color:#8d4b32; border-radius:8px; text-decoration:none; font-weight:bold; }
+    section { padding:50px 20px; max-width:1000px; margin:auto; }
+    .sobre { display:flex; flex-wrap:wrap; align-items:center; gap:20px; }
+    .sobre img { max-width:350px; border-radius:15px; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; margin-top:20px; }
+    .card { background:#fff; padding:20px; border-radius:15px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    .faq details { margin-bottom:15px; }
+    footer { background:#8d4b32; color:#fff; text-align:center; padding:30px 20px; margin-top:40px; }
+    footer a { color:#ffb7c5; text-decoration:none; font-weight:bold; }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="logo.png" alt="Kilma Frateles Logo">
-    <nav>
-      <a href="#inicio">Início</a>
-      <a href="#sobre">Sobre mim</a>
-      <a href="#ajuda">Como posso ajudar</a>
-      <a href="#terapia">Terapia online</a>
-      <a href="#faq">Dúvidas frequentes</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>
+<header>
+  <img src="logo.png" alt="Logo Kilma Frateles">
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre mim</a>
+    <a href="#ajuda">Como posso ajudar</a>
+    <a href="#terapia">Terapia online</a>
+    <a href="#faq">Dúvidas frequentes</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
 
-  <section id="inicio" class="hero">
+<section id="inicio" class="hero">
+  <div class="hero-text">
     <h1>Psicoterapia Online para Mães</h1>
-    <p>Do desejo de ser mãe ao pós-parto: suporte psicológico para viver essa fase com mais leveza.</p>
-    <p><em>Cuidar de você também faz parte da maternidade. Aqui você encontra um espaço seguro para compartilhar, acolher e se fortalecer.</em></p>
-    <a class="btn" href="https://wa.me/55993419085?text=Olá%20Kilma,%20gostaria%20de%20agendar%20uma%20consulta">👉 Agende sua consulta</a>
-  </section>
+    <p>Ofereço um acompanhamento sensível e seguro, onde você possa se sentir acolhida em sua singularidade, elaborar suas experiências, fortalecer sua saúde mental e viver a maternidade de forma mais consciente, leve e integrada à sua própria história.</p>
+    <a href="https://wa.me/55993419085" class="cta">👉 Agende sua consulta</a>
+    <a href="https://calendar.app.google/SV4bEEWqkKKHx6UK6" class="cta">📅 Horário disponível</a>
+  </div>
+  <img src="1.png" alt="Foto destaque">
+</section>
 
-  <section id="sobre" class="sobre">
-    <img src="2.png" alt="Kilma Frateles">
-    <div>
-      <h2>Sobre mim</h2>
-      <p>Olá, sou <strong>Kilma Frateles</strong>, psicóloga perinatal (CRP 03/25686).<br>
-      Meu trabalho é oferecer um espaço de acolhimento e escuta para mulheres que estão vivendo a gestação, o pós-parto e todas as transformações que esse momento traz.</p>
-      <p>Acredito que cada mãe e cada bebê têm uma história única. Meu papel é ajudar você a se sentir mais segura, confiante e conectada consigo mesma, com sua maternidade e com seus relacionamentos.</p>
-      <a class="btn" href="https://wa.me/55993419085?text=Olá%20Kilma,%20quero%20agendar%20minha%20sessão">👉 Quero agendar minha sessão</a>
-    </div>
-  </section>
+<section id="sobre" class="sobre">
+  <img src="2.png" alt="Foto Sobre mim">
+  <div>
+    <h2>Sobre mim</h2>
+    <p>Sou Katiane Kilma Fernandes Frateles (CRP 03/25686), psicóloga formada há 6 anos, pós-graduada em Psicologia do Desenvolvimento e da Aprendizagem e atualmente pós-graduanda em Saúde Mental Perinatal.</p>
+    <p>Minha trajetória profissional sempre esteve ligada ao universo feminino, mas foi a experiência da minha própria gestação e maternidade que me fez olhar com ainda mais sensibilidade para as necessidades emocionais das mulheres nesse período tão intenso e transformador.</p>
+    <p>Hoje, dedico meu trabalho à psicologia perinatal, acolhendo tentantes, gestantes e puérperas em suas diferentes vivências. Sei que cada fase traz consigo alegrias, mas também medos e desafios: a ansiedade nas tentativas de engravidar, as inseguranças que podem surgir durante a gestação, o turbilhão de sentimentos do pós-parto — como a dificuldade no vínculo com o bebê, a depressão, os processos de luto — e até mesmo o momento delicado da volta ao trabalho, tantas vezes acompanhado de culpa, sobrecarga ou dúvidas sobre como conciliar tudo.</p>
+    <p>Meu compromisso é oferecer um espaço seguro e acolhedor, onde cada mulher possa ser ouvida em sua singularidade, reconhecer suas forças e encontrar novos caminhos para viver a maternidade de forma mais leve, consciente e integrada à sua própria história.</p>
+  </div>
+</section>
 
-  <section id="ajuda">
-    <h2>Como posso te ajudar</h2>
-    <div class="cards">
-      <div class="card">Ansiedade na gestação – Apoio para lidar com os medos e incertezas desse período.</div>
-      <div class="card">Depressão pós-parto – Acolhimento para que você não viva essa fase sozinha.</div>
-      <div class="card">Relacionamento conjugal – Escuta para as mudanças e conflitos após a chegada do bebê.</div>
-      <div class="card">Autoestima e identidade materna – Apoio para redescobrir-se no papel de mãe e mulher.</div>
-      <div class="card">Preparação para o parto – Orientação emocional para escolhas conscientes.</div>
-      <div class="card">Amamentação e puerpério – Suporte diante dos desafios iniciais da maternidade.</div>
-    </div>
-  </section>
+<section id="ajuda">
+  <h2>Como posso te ajudar</h2>
+  <div class="cards">
+    <div class="card">Ansiedade nas tentativas de engravidar – expectativas, frustrações e inseguranças diante da dificuldade de concepção, além de diagnósticos difíceis relacionados à fertilidade e o medo de tentar novamente após múltiplas perdas.</div>
+    <div class="card">Dificuldades emocionais na gestação – medos, culpas, sobrecarga, ambivalência e adaptações diante das transformações físicas e emocionais desse período, incluindo diagnósticos delicados durante a gravidez, como malformações fetais ou riscos à saúde materna.</div>
+    <div class="card">Desafios do pós-parto – depressão pós-parto, exaustão, dificuldade de vínculo com o bebê, sentimentos de ambivalência em relação à maternidade e diagnósticos de saúde complexos no bebê ou na mãe. Também acolho mulheres que vivem o luto perinatal diante de abortos ou perdas gestacionais.</div>
+    <div class="card">Volta ao trabalho – sentimentos de culpa, sobrecarga e dúvidas sobre como conciliar carreira e maternidade.</div>
+  </div>
+</section>
 
-  <section id="terapia">
-    <h2>Por que escolher a terapia online?</h2>
-    <p>A terapia online garante o mesmo acolhimento da presencial, mas com praticidade e flexibilidade para você.</p>
-    <ul style="list-style:none; padding:0;">
-      <li>💻 Comodidade – atenda-se de onde estiver.</li>
-      <li>⏰ Economia de tempo – sem deslocamentos.</li>
-      <li>🌍 Flexibilidade – sessões adaptadas à sua rotina.</li>
-      <li>💬 Acolhimento próximo – a escuta continua segura e humanizada.</li>
-    </ul>
-  </section>
+<section id="terapia">
+  <h2>Por que escolher a terapia online?</h2>
+  <ul>
+    <li>💻 Comodidade – atenda-se de onde estiver.</li>
+    <li>⏰ Economia de tempo – sem deslocamentos.</li>
+    <li>🌍 Flexibilidade – sessões adaptadas à sua rotina.</li>
+    <li>💬 Acolhimento próximo – a escuta continua segura e humanizada.</li>
+  </ul>
+</section>
 
-  <section id="faq">
-    <h2>Dúvidas frequentes</h2>
-    <p><strong>Quanto custa a sessão?</strong><br>O valor é informado no primeiro contato, após compreendermos sua necessidade.</p>
-    <p><strong>Qual é a duração da consulta?</strong><br>Cada sessão tem aproximadamente 50 minutos.</p>
-    <p><strong>Como funciona o pagamento?</strong><br>Pode ser feito via PIX, transferência ou cartão de crédito.</p>
-    <p><strong>Preciso instalar algum aplicativo?</strong><br>Não, basta ter acesso à internet. A consulta pode acontecer via Google Meet ou WhatsApp vídeo.</p>
-    <p><strong>Você atende convênios?</strong><br>Atendo de forma particular. Você pode verificar com seu convênio a possibilidade de reembolso.</p>
-  </section>
+<section id="faq" class="faq">
+  <h2>Dúvidas frequentes</h2>
+  <details>
+    <summary>Quanto custa a sessão?</summary>
+    <p>O valor é informado no primeiro contato, após compreendermos sua necessidade.</p>
+  </details>
+  <details>
+    <summary>Qual é a duração da consulta?</summary>
+    <p>Cada sessão tem aproximadamente 50 minutos.</p>
+  </details>
+  <details>
+    <summary>Como funciona o pagamento?</summary>
+    <p>Pode ser feito via PIX, transferência ou cartão de crédito.</p>
+  </details>
+  <details>
+    <summary>Preciso instalar algum aplicativo?</summary>
+    <p>Sim, utilizamos Google Meet ou outro app de sua preferência, definido na primeira sessão.</p>
+  </details>
+  <details>
+    <summary>Você atende convênios?</summary>
+    <p>Atendo de forma particular. Você pode verificar com seu convênio a possibilidade de reembolso.</p>
+  </details>
+</section>
 
-  <footer id="contato">
-    <h2>Vamos conversar?</h2>
-    <p>Se você sente que precisa de apoio nesse momento, entre em contato comigo.<br>
-    Será um prazer caminhar ao seu lado.</p>
-    <a class="btn" href="https://wa.me/55993419085?text=Olá%20Kilma,%20gostaria%20de%20agendar%20uma%20consulta">👉 Agendar consulta agora</a>
-    <p>📩 E-mail: <a href="mailto:kilmafratele@gmail.com">kilmafratele@gmail.com</a></p>
-    <p>📸 Instagram: <a href="https://instagram.com/kilmafrateles.psi" target="_blank">@kilmafrateles.psi</a></p>
-    <p>© 2025 Kilma Frateles | Psicóloga Perinatal – CRP 03/25686</p>
-  </footer>
+<footer id="contato">
+  <h2>Vamos conversar?</h2>
+  <p>“Se você sente que precisa de apoio nesse momento, entre em contato comigo. Será um prazer caminhar ao seu lado.”</p>
+  <a href="https://wa.me/55993419085">👉 Agendar consulta agora</a><br><br>
+  <p>📩 WhatsApp: 55 99 3419-085</p>
+  <p>📧 E-mail: kilmafratele@gmail.com</p>
+  <p>📸 Instagram: <a href="https://instagram.com/kilmafrateles.psi">@kilmafrateles.psi</a></p>
+  <small>© 2025 Kilma Frateles | Psicóloga Perinatal – CRP 03/25686</small>
+</footer>
 
 </body>
 </html>
